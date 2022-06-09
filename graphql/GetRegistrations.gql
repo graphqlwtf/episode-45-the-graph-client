@@ -1,0 +1,9 @@
+query GetRegistrations {
+  registrations {
+    id
+    expiryDate
+    domain {
+      name
+    }
+  }
+}
